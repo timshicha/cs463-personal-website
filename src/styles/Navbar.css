@@ -1,0 +1,45 @@
+.nav-bar {
+  background-color: rgb(6, 6, 97);
+  height: 50px;
+}
+
+.nav-table {
+  display: table;
+  height: inherit;
+  float: right;
+}
+
+.nav-item {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.nav-link {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  transition: font-size 0.05s;
+  /* background-color: gray; */
+}
+
+.nav-link:hover {
+  font-size: 24px;
+}
+
+.about-me-link {
+  width: 120px;
+}
+
+.previous-work-link {
+  width: 160px;
+}
+
+.projects-link {
+  width: 110px;
+}
+
+.contact-link {
+  width: 110px;
+}
