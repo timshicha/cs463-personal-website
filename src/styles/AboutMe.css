@@ -1,8 +1,11 @@
-.App {
+.about-me {
   position: absolute;
-  min-width: 100vw;
-  min-height: 100vh;
-  background-color: gray;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: wrap;
+  background-color: rgb(21, 21, 21);
+  background-image: url('../assets/bg-pattern.png');
+  background-size: 50px;
 }
 
 .App-logo {
@@ -10,13 +13,43 @@
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.grid-container {
+  display: grid;
+  margin: 20px;
+}
+
+.main-photo {
+  grid-area: main-photo;
+  height: 300px;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.par-area {
+  grid-area: par-area;
+}
+
+.intro-paragraph {
   color: white;
+  line-height: 1.7;
+  margin: 10px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 650px) {
+  .grid-areas-container {
+    grid-template-areas:
+      'main-photo'
+      'par-area';
+    grid-template-columns: 400px;
+  }
+}
+
+@media (min-width: 650px) {
+  .grid-areas-container {
+    grid-template-areas:
+      'main-photo par-area'
+      '.          par-area';
+    grid-template-columns: 350px;
+  }
 }
