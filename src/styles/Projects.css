@@ -9,9 +9,10 @@
 .project-section {
   background-color: rgb(190, 190, 190);
   padding: 10px;
+  padding-bottom: 15px;
   min-width: 300px;
-  margin-left: 30px;
-  margin-right: 40px;
+  margin: 40px;
+  margin-right: 50px;
   border-radius: 20px;
 }
 
@@ -32,6 +33,7 @@
 
 .project-desc {
   margin: 0px;
+  margin-bottom: 20px;
 }
 
 .github-button {
@@ -40,11 +42,14 @@
   color: white;
   /* background-image: linear-gradient(rgb(74, 46, 119), rgb(102, 85, 135)); */
   background-color: rgb(94, 67, 139);
+  width: 250px;
+  text-align: center;
   padding: 5px;
   padding-left: 25px;
   padding-right: 25px;
   border-radius: 8px;
-  margin-top: 20px;
+  margin: 5px;
+  margin-right: 10px;
 }
 
 .github-button:hover {
