@@ -2,27 +2,6 @@
   overflow-y: overlay;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.navbar-spacer {
-  height: 50px;
-}
-
-.header {
-  color: white;
-  margin-top: 40px;
-  margin-left: 5px;
-  text-transform: uppercase;
-}
-
-.grid-container {
-  display: grid;
-  margin-right: 20px;
-}
-
 .main-photo {
   grid-area: main-photo;
   height: 350px;
@@ -32,13 +11,6 @@
 
 .par-area {
   grid-area: par-area;
-}
-
-.intro-paragraph {
-  color: white;
-  line-height: 1.7;
-  margin: 10px;
-  margin-bottom: 20px;
 }
 
 @media (max-width: 750px) {

@@ -6,3 +6,43 @@
   background-image: url('../assets/bg-pattern.png');
   background-size: 50px;
 }
+
+h1 {
+  color: white;
+  margin-top: 40px;
+  margin-left: 15px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: white;
+  margin-top: 20px;
+  margin-left: 15px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.grid-container {
+  display: grid;
+  margin-right: 30px;
+}
+
+.paragraph-primary {
+  color: white;
+  line-height: 1.7;
+  margin: 20px;
+}
+
+.navbar-spacer {
+  height: 50px;
+}
+
+.center-text {
+  display: block;
+  text-align: center;
+}
+
+.black-text {
+  color: black;
+}
