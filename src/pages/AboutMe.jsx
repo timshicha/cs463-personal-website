@@ -1,23 +1,8 @@
-import { useState, useRef } from 'react';
 import '../styles/AboutMe.css';
 import Navbar from '../components/Navbar';
 import ImageOfTimofey from '../assets/image-of-timofey.jpg';
-import ExpandCarot from '../assets/caret-down.png';
-import CollapseCarot from '../assets/caret-up.png';
 
 function AboutMe() {
-  const [expanded, setExpanded] = useState(false);
-  const collapsibleRef = useRef(null);
-
-  const toggleCollapsible = () => {
-    if (expanded) {
-      setExpanded(false);
-    } else {
-      setExpanded(true);
-    }
-    console.log('toggled');
-  };
-
   return (
     <div className="about-me overflow-handler">
       <Navbar />
@@ -46,11 +31,8 @@ function AboutMe() {
             came to realize that computer science is the perfect career path for
             me is an interesting story.
           </p>
-          <h1 className="header">How I came to Computer Science</h1>
-          <div
-            className={'collapsible-section ' + (expanded && 'expanded')}
-            ref={collapsibleRef}
-          >
+          <div>
+            <h1 className="header">How I came to Computer Science</h1>
             <p className="intro-paragraph">
               I took a statistics class in high school, and some time into the
               course, we came to a unit that required the inverse-T function on
@@ -82,13 +64,6 @@ function AboutMe() {
               have never looked back.
             </p>
           </div>
-          <input
-            type="image"
-            src={expanded ? CollapseCarot : ExpandCarot}
-            alt="Expand section How I came to Computer Science"
-            className="expand-toggle"
-            onClick={toggleCollapsible}
-          ></input>
         </div>
       </section>
     </div>
