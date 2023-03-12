@@ -11,17 +11,17 @@ const Navbar = () => {
             </a>
           </div>
           <div className="nav-item">
-            <a href="/" className="nav-link previous-work-link">
+            <a href="/previous-work" className="nav-link previous-work-link">
               Previous Work
             </a>
           </div>
           <div className="nav-item">
-            <a href="/" className="nav-link projects-link">
+            <a href="/projects" className="nav-link projects-link">
               Projects
             </a>
           </div>
           <div className="nav-item">
-            <a href="/" className="nav-link contact-link">
+            <a href="/contact" className="nav-link contact-link">
               Contact
             </a>
           </div>

@@ -1,10 +1,9 @@
-import '../styles/AboutMe.css';
 import Navbar from '../components/Navbar';
 import ImageOfTimofey from '../assets/image-of-timofey.jpg';
 
 function AboutMe() {
   return (
-    <div className="about-me overflow-handler">
+    <div className="about-me hex-bg-pattern overflow-handler">
       <Navbar />
       <div className="navbar-spacer"></div>
       <section className="grid-container grid-areas-container">
