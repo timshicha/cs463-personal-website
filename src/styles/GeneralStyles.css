@@ -20,7 +20,16 @@ h2 {
   margin-top: 20px;
   margin-left: 15px;
   font-size: 22px;
-  text-transform: uppercase;
+}
+
+h3 {
+  color: white;
+  margin: 15px;
+  font-size: 20px;
+}
+
+.page-header-div {
+  margin-top: 70px;
 }
 
 .grid-container {

@@ -8,12 +8,12 @@ function Projects() {
   return (
     <div className="projects hex-bg-pattern overflow-handler">
       <Navbar />
-      <div className="projects-header-div">
+      <div className="page-header-div">
         <h1 className="center-text">Projects</h1>
       </div>
 
       <div className="project-section">
-        <h2 className="black-text">Connect 4 AI Agents</h2>
+        <h2 className="black-text">Connect 4 AI Agents (Bots)</h2>
         <div className="grid-container project-areas">
           <img
             src={Connect4Img}
@@ -22,13 +22,14 @@ function Projects() {
           />
           <div className="project-info">
             <p className="project-desc">
-              This project consists of two Connect 4 AI agents. The first agent
-              uses the minimax algorithm with alpha-beta pruning, and the second
-              agent uses the Monte-Carlo tree search (MCTS) algorithm. The
-              project allows a user to customize agents' parameters (minimax:
-              max search depth, MCTS: number of simulations) and to play against
-              them. Additionally, the agents can be set to play against each
-              other. For more info, see the final report found in the GitHub
+              I created this project for my AI class, and it consists of two
+              Connect 4 AI agents (bots). The first agent uses the minimax
+              algorithm with alpha-beta pruning, and the second agent uses the
+              Monte-Carlo tree search (MCTS) algorithm. The project allows a
+              user to customize agents' parameters (minimax: max search depth,
+              MCTS: number of simulations) and to play against them.
+              Additionally, the agents can be set to play against each other.
+              For more info, see the final report found in the GitHub
               repository.
             </p>
             <a
@@ -103,17 +104,17 @@ function Projects() {
           />
           <div className="project-info">
             <p className="project-desc">
-              This is a simple web application that I made when I was first
-              learning web development a couple years ago. The code quality is
-              very poor and the app has very limited accessibility. Nonetheless,
-              this was a great feat for me at the time, not only in terms of web
-              development, but also that I was finally able to come up with my
-              own algorithm for creating a perfect tic-tac-toe bot (I later
-              learned I implemented a messy minimax algorithm).
+              This is a simple web application that I made on my own when I was
+              first learning web development a couple years ago. The code
+              quality is very poor and the app has very limited accessibility.
+              Nonetheless, this was a great feat for me at the time, not only in
+              terms of web development, but also that I was finally able to come
+              up with my own algorithm for creating a perfect tic-tac-toe bot (I
+              later learned I implemented a messy minimax algorithm).
             </p>
             <a
               className="github-button"
-              href="https://replit.com/@TimShicha/tictactoe"
+              href="https://replit.com/@TimShicha/tictactoe#index.html"
               target="_blank"
               rel="noreferrer"
             >
@@ -141,18 +142,18 @@ function Projects() {
           />
           <div className="project-info">
             <p className="project-desc">
-              This was one of my very first web applications that I made after
-              learning how to modify elements using Javascript. The code quality
-              is poor, but this is one of my few projects that I cherish. I was
-              able to apply the breadth-first algorithm that I learned in a
-              different class and see it work graphically. The app allows the
-              user to select two points and build walls between them. The app
-              then finds the shortest path between the two selected points and
-              highlights it.
+              This was one of my very first web applications that I made in my
+              own time after learning how to modify elements using Javascript.
+              The code quality is poor, but this is one of my few projects that
+              I cherish. I was able to apply the breadth-first algorithm that I
+              learned in a different class and see it work graphically. The app
+              allows the user to select two points and build walls between them.
+              The app then finds the shortest path between the two selected
+              points and highlights it.
             </p>
             <a
               className="github-button"
-              href="https://replit.com/@TimShicha/Maze-Solver"
+              href="https://replit.com/@TimShicha/Maze-Solver#index.html"
               target="_blank"
               rel="noreferrer"
             >

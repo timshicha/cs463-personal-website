@@ -4,6 +4,7 @@ import './index.css';
 import './styles/AboutMe.css';
 import './styles/GeneralStyles.css';
 import './styles/Projects.css';
+import './styles/PreviousWork.css';
 import reportWebVitals from './reportWebVitals';
 import AppRoutes from './routes';
 

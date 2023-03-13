@@ -1,0 +1,75 @@
+.previous-work {
+  overflow-y: overlay;
+}
+
+.skills-list {
+  margin-bottom: 50px;
+}
+
+.prev-work-div {
+  background-color: rgb(190, 190, 190);
+  padding: 30px;
+  padding-top: 10px;
+  min-width: 380px;
+  margin: 40px;
+  margin-right: 50px;
+  border-radius: 20px;
+}
+
+.work-purple-box {
+  background-color: rgb(80, 47, 147);
+  padding: 0px;
+  margin: 0px;
+}
+
+.work-item {
+  list-style: none;
+  border: black solid 2px;
+  border-bottom: none;
+  padding: 15px;
+}
+
+li.work-item:last-child {
+  border-bottom: black solid 2px;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.caret-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.caret-img:hover {
+  cursor: pointer;
+  background-color: rgb(105, 72, 161);
+}
+
+.topics-text {
+  margin: 15px 0px 10px 15px;
+}
+
+.work-expanded-sec {
+  background-color: white;
+  margin-top: 0px;
+  height: 0px;
+  overflow-y: hidden;
+  transition: height 0.1s;
+  transition: margin-top 0.1s;
+  border-radius: 10px;
+}
+
+.expanded-sz {
+  overflow-y: auto;
+  margin-top: 10px;
+  height: 150px;
+}
+
+.topics-list {
+  list-style-type: disc;
+}

@@ -2,10 +2,6 @@
   overflow-y: overlay;
 }
 
-.projects-header-div {
-  margin-top: 70px;
-}
-
 .project-section {
   background-color: rgb(190, 190, 190);
   padding: 10px;
@@ -40,8 +36,7 @@
   display: inline-block;
   text-decoration: none;
   color: white;
-  /* background-image: linear-gradient(rgb(74, 46, 119), rgb(102, 85, 135)); */
-  background-color: rgb(94, 67, 139);
+  background-color: rgb(85, 40, 130);
   width: 250px;
   text-align: center;
   padding: 5px;
@@ -53,7 +48,7 @@
 }
 
 .github-button:hover {
-  background-color: rgb(71, 45, 113);
+  background-color: rgb(105, 72, 161);
 }
 
 @media (max-width: 700px) {
