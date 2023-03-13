@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cs463-personal-website/static/css/main.d22ca5c2.css",
-    "main.js": "/cs463-personal-website/static/js/main.031ca01e.js",
+    "main.js": "/cs463-personal-website/static/js/main.74dcd069.js",
     "static/js/787.02c3d628.chunk.js": "/cs463-personal-website/static/js/787.02c3d628.chunk.js",
     "static/media/image-of-timofey.jpg": "/cs463-personal-website/static/media/image-of-timofey.444c76d918c221acd4ed.jpg",
     "static/media/blurp-img.png": "/cs463-personal-website/static/media/blurp-img.cac2d01912107a998e64.png",
@@ -9,11 +9,11 @@
     "static/media/maze-solver-img.png": "/cs463-personal-website/static/media/maze-solver-img.b25bee8696d3f707092f.png",
     "index.html": "/cs463-personal-website/index.html",
     "main.d22ca5c2.css.map": "/cs463-personal-website/static/css/main.d22ca5c2.css.map",
-    "main.031ca01e.js.map": "/cs463-personal-website/static/js/main.031ca01e.js.map",
+    "main.74dcd069.js.map": "/cs463-personal-website/static/js/main.74dcd069.js.map",
     "787.02c3d628.chunk.js.map": "/cs463-personal-website/static/js/787.02c3d628.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d22ca5c2.css",
-    "static/js/main.031ca01e.js"
+    "static/js/main.74dcd069.js"
   ]
 }
