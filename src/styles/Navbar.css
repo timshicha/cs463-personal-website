@@ -11,12 +11,16 @@
   display: block;
   position: relative;
   float: right;
+  width: 175px;
 }
 
 .nav-menu-btn {
+  display: block;
   background-color: transparent;
   border: none;
-  float: right;
+  margin-left: auto;
+  margin-right: 0px;
+  max-height: 50px;
 }
 
 .menu-icon {
@@ -31,18 +35,22 @@
 
 .expanded-menu {
   background-color: rgb(102, 85, 135);
-  width: fit-content;
-  height: fit-content;
-  border-top: solid gray 1px;
-  margin-top: 50px;
-  padding: 1px;
+  margin: 0px;
+  height: 230px;
+  overflow-y: hidden;
+  transition: height 0.2s;
+  padding-left: 0px;
+}
+
+.hidden {
+  height: 0px;
 }
 
 .menu-item {
   list-style: none;
   padding: 5px;
   padding-left: 10px;
-  border-bottom: solid gray 1px;
+  border-top: solid gray 1px;
 }
 
 .menu-link {
@@ -57,10 +65,6 @@
 
 .menu-link:hover {
   color: rgb(204, 204, 204);
-}
-
-.hidden {
-  display: none;
 }
 
 .nav-table {
