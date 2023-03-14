@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cs463-personal-website/static/css/main.4052a679.css",
-    "main.js": "/cs463-personal-website/static/js/main.e6e5984a.js",
+    "main.css": "/cs463-personal-website/static/css/main.d0b0de3d.css",
+    "main.js": "/cs463-personal-website/static/js/main.828ae985.js",
     "static/js/787.02c3d628.chunk.js": "/cs463-personal-website/static/js/787.02c3d628.chunk.js",
     "static/media/image-of-timofey.jpg": "/cs463-personal-website/static/media/image-of-timofey.444c76d918c221acd4ed.jpg",
     "static/media/blurp-img.png": "/cs463-personal-website/static/media/blurp-img.cac2d01912107a998e64.png",
@@ -10,12 +10,12 @@
     "index.html": "/cs463-personal-website/index.html",
     "static/media/github.svg": "/cs463-personal-website/static/media/github.22e65707326e3e1e37afd21c5334995a.svg",
     "static/media/linkedin.svg": "/cs463-personal-website/static/media/linkedin.bd5cbc7061c56aa445622ba78084f1cc.svg",
-    "main.4052a679.css.map": "/cs463-personal-website/static/css/main.4052a679.css.map",
-    "main.e6e5984a.js.map": "/cs463-personal-website/static/js/main.e6e5984a.js.map",
+    "main.d0b0de3d.css.map": "/cs463-personal-website/static/css/main.d0b0de3d.css.map",
+    "main.828ae985.js.map": "/cs463-personal-website/static/js/main.828ae985.js.map",
     "787.02c3d628.chunk.js.map": "/cs463-personal-website/static/js/787.02c3d628.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4052a679.css",
-    "static/js/main.e6e5984a.js"
+    "static/css/main.d0b0de3d.css",
+    "static/js/main.828ae985.js"
   ]
 }
