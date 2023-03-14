@@ -1,5 +1,5 @@
 .projects {
-  overflow-y: overlay;
+  overflow-y: auto;
 }
 
 .project-section {
