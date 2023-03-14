@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar';
+import SocialMedia from '../components/SocialMedia';
 
 function Contact() {
   return (
@@ -6,7 +7,19 @@ function Contact() {
       <Navbar />
       <h1 className="page-header center-text">Contact</h1>
       <div className="contact-div">
-        <form action="">
+        <div className="find-me-div">
+          <p className="find-me-text">
+            You can find me on LinkedIn and GitHub here:
+          </p>
+          <div className="contact-media-div center-text">
+            <SocialMedia />
+          </div>
+        </div>
+        <p className="find-me-text form-prompt">
+          If you need to reach me personally, please contact me using the form
+          (non-functioning) below:
+        </p>
+        <form action="/">
           <div className="label-section">
             <label htmlFor="name" className="contact-label">
               Name:
@@ -35,7 +48,7 @@ function Contact() {
             </label>
             <textarea
               id="message"
-              name="message-body"
+              name="message"
               className="contact-field contact-message"
             />
           </div>

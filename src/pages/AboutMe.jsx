@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar';
+import SocialMedia from '../components/SocialMedia';
 import ImageOfTimofey from '../assets/image-of-timofey.jpg';
 
 function AboutMe() {
@@ -7,11 +8,19 @@ function AboutMe() {
       <Navbar />
       <div className="navbar-spacer"></div>
       <section className="grid-container grid-areas-container">
-        <img
-          className="main-photo"
-          src={ImageOfTimofey}
-          alt="Timofey staning in a field of dry grass with a sunset hiting his face."
-        />
+        <div className="photo-area">
+          <img
+            className="main-photo"
+            src={ImageOfTimofey}
+            alt="Timofey staning in a field of dry grass with a sunset hiting his face."
+          />
+          <div className="media-section-bg">
+            <p className="find-me-text">Find me on LinkedIn and GitHub:</p>
+            <div className="media-btns-div">
+              <SocialMedia />
+            </div>
+          </div>
+        </div>
         <div className="par-area">
           <h1>My introduction</h1>
           <p className="paragraph-primary">

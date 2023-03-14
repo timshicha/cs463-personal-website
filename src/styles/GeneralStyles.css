@@ -32,11 +32,6 @@ h3 {
   margin-top: 70px;
 }
 
-.grid-container {
-  display: grid;
-  margin-right: 30px;
-}
-
 .paragraph-primary {
   color: white;
   line-height: 1.7;
@@ -48,10 +43,27 @@ h3 {
 }
 
 .center-text {
-  display: block;
   text-align: center;
 }
 
 .black-text {
   color: black;
+}
+
+.find-me-text {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(70, 70, 70);
+  margin-bottom: 5px;
+}
+
+.find-me-div {
+  width: fit-content;
+}
+
+.media-btns-div {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
