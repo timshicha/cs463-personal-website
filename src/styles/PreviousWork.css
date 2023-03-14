@@ -10,7 +10,6 @@
   background-color: rgb(190, 190, 190);
   padding: 30px;
   padding-top: 10px;
-  min-width: 380px;
   margin: 40px;
   margin-right: 50px;
   border-radius: 20px;
@@ -26,15 +25,18 @@
   list-style: none;
   border: black solid 2px;
   border-bottom: none;
-  padding: 15px;
+  padding: 5px;
+  padding-left: 10px;
 }
 
 li.work-item:last-child {
   border-bottom: black solid 2px;
 }
 
-.inline {
+.course-title {
   display: inline-block;
+  overflow-x: wrap;
+  max-width: 80%;
   vertical-align: middle;
 }
 
@@ -56,8 +58,8 @@ li.work-item:last-child {
 
 .work-expanded-sec {
   background-color: white;
-  margin-top: 0px;
   height: 0px;
+  padding-right: 10px;
   overflow-y: hidden;
   transition: height 0.1s;
   transition: margin-top 0.1s;
@@ -72,4 +74,23 @@ li.work-item:last-child {
 
 .topics-list {
   list-style-type: disc;
+}
+
+@media (max-width: 530px) {
+  .course-title {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 450px) {
+  .prev-work-div {
+    max-width: 100%;
+    min-width: 220px;
+    margin-left: 5px;
+    margin-right: 30px;
+  }
+
+  .expanded-sz {
+    height: 160px;
+  }
 }

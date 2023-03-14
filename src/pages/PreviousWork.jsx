@@ -41,7 +41,7 @@ function PreviousWork() {
               className="caret-img"
               onClick={() => toggleExpand('CS 441')}
             />
-            <h3 className="inline">CS 441 - Artificial Intelligence</h3>
+            <h3 className="course-title">CS 441 - Artificial Intelligence</h3>
             <div
               className={
                 'work-expanded-sec ' +
@@ -51,7 +51,7 @@ function PreviousWork() {
               <p className="topics-text">Main topics learned:</p>
               <ul className="topics-list">
                 <li>Reinforcement learning learning</li>
-                <li>Local and nonlocal search algorithms</li>
+                <li>Search algorithms</li>
                 <li>Genetic algorithms</li>
                 <li>Adversarial search</li>
               </ul>
@@ -65,7 +65,7 @@ function PreviousWork() {
               className="caret-img"
               onClick={() => toggleExpand('CS 445')}
             />
-            <h3 className="inline">CS 445 - Machine Learning</h3>
+            <h3 className="course-title">CS 445 - Machine Learning</h3>
             <div
               className={
                 'work-expanded-sec ' +
@@ -88,7 +88,7 @@ function PreviousWork() {
               className="caret-img"
               onClick={() => toggleExpand('CS 486')}
             />
-            <h3 className="inline">
+            <h3 className="course-title">
               CS 486 - Introduction to Database Management
             </h3>
             <div
@@ -113,7 +113,9 @@ function PreviousWork() {
               className="caret-img"
               onClick={() => toggleExpand('CS 494P')}
             />
-            <h3 className="inline">CS 494P - Internetworking Protocols</h3>
+            <h3 className="course-title">
+              CS 494P - Internetworking Protocols
+            </h3>
             <div
               className={
                 'work-expanded-sec ' +
@@ -136,7 +138,7 @@ function PreviousWork() {
               className="caret-img"
               onClick={() => toggleExpand('CS 469/470')}
             />
-            <h3 className="inline">
+            <h3 className="course-title">
               CS 469/470 - Software Engineering Capstone
             </h3>
             <div
