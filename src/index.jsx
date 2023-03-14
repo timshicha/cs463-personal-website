@@ -5,6 +5,7 @@ import './styles/AboutMe.css';
 import './styles/GeneralStyles.css';
 import './styles/Projects.css';
 import './styles/PreviousWork.css';
+import './styles/Contact.css';
 import reportWebVitals from './reportWebVitals';
 import AppRoutes from './routes';
 

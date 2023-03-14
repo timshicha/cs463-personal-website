@@ -17,9 +17,7 @@ function PreviousWork() {
   return (
     <div className="previous-work hex-bg-pattern overflow-handler">
       <Navbar />
-      <div className="page-header-div">
-        <h1 className="center-text">Previous Work</h1>
-      </div>
+      <h1 className="page-header center-text">Previous Work</h1>
       <div className="prev-work-div">
         <h2 className="black-text">Skills:</h2>
         <ul className="skills-list">

@@ -1,0 +1,93 @@
+.contact {
+  overflow-y: overlay;
+}
+
+.contact-div {
+  background-color: rgb(190, 190, 190);
+  padding: 30px;
+  width: 60%;
+  min-width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.label-section {
+  display: block;
+  min-height: 40px;
+}
+
+.contact-label {
+  display: inline-block;
+  width: 70px;
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(70, 70, 70);
+}
+
+.contact-field {
+  display: inline-block;
+  margin: 5px;
+  margin-left: 0px;
+  padding: 4px;
+  width: 350px;
+  max-width: 100%;
+  font-size: 20px;
+  border: 3px solid gray;
+}
+
+.contact-field:focus {
+  border: 3px solid rgb(80, 47, 147);
+  outline: none;
+  /* border-color: purple; */
+}
+
+.msg-div {
+  margin-top: 10px;
+}
+
+.contact-message {
+  min-width: 100%;
+  min-height: 300px;
+}
+
+.contact-btn-div {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-btn {
+  outline: none;
+  border: none;
+  padding: 8px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  width: 140px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.contact-btn:hover {
+  cursor: pointer;
+}
+
+.contact-submit {
+  background-color: rgb(80, 47, 147);
+}
+
+.contact-submit:hover {
+  background-color: rgb(54, 25, 113);
+}
+
+.contact-reset {
+  background-color: rgb(70, 70, 70);
+}
+
+.contact-reset:hover {
+  background-color: rgb(51, 51, 51);
+}

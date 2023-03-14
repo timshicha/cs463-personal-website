@@ -8,10 +8,7 @@ function Projects() {
   return (
     <div className="projects hex-bg-pattern overflow-handler">
       <Navbar />
-      <div className="page-header-div">
-        <h1 className="center-text">Projects</h1>
-      </div>
-
+      <h1 className="page-header center-text">Projects</h1>
       <div className="project-section">
         <h2 className="black-text">Connect 4 AI Agents (Bots)</h2>
         <div className="grid-container project-areas">
