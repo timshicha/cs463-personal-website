@@ -4,8 +4,7 @@
 
 .project-section {
   background-color: rgb(190, 190, 190);
-  padding: 10px;
-  padding-bottom: 15px;
+  padding: 15px;
   min-width: 300px;
   margin: 40px;
   margin-right: 50px;
@@ -22,6 +21,10 @@
   margin-bottom: 20px;
 }
 
+.projects-grid-container {
+  display: grid;
+}
+
 .project-info {
   margin-left: 25px;
   grid-area: project-desc;
@@ -30,6 +33,7 @@
 .project-desc {
   margin: 0px;
   margin-bottom: 20px;
+  margin-right: 15px;
 }
 
 .github-button {
@@ -51,7 +55,23 @@
   background-color: rgb(105, 72, 161);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 470px) {
+  .project-areas {
+    grid-template-areas:
+      'project-img'
+      'project-desc';
+  }
+
+  .project-section {
+    min-width: 250px;
+  }
+
+  .github-button {
+    max-width: 150px;
+  }
+}
+
+@media (min-width: 470px) and (max-width: 700px) {
   .project-areas {
     grid-template-areas:
       'project-img'

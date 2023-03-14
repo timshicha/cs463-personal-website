@@ -7,7 +7,7 @@ function AboutMe() {
     <div className="about-me hex-bg-pattern overflow-handler">
       <Navbar />
       <div className="navbar-spacer"></div>
-      <section className="grid-container grid-areas-container">
+      <section className="aboutme-grid-container grid-areas-container">
         <div className="photo-area">
           <img
             className="main-photo"

@@ -11,7 +11,7 @@ function Projects() {
       <h1 className="page-header center-text">Projects</h1>
       <div className="project-section">
         <h2 className="black-text">Connect 4 AI Agents (Bots)</h2>
-        <div className="grid-container project-areas">
+        <div className="projects-grid-container project-areas">
           <img
             src={Connect4Img}
             className="project-img"
@@ -43,7 +43,7 @@ function Projects() {
 
       <div className="project-section">
         <h2 className="black-text">Blurp (Relationship Map Tool)</h2>
-        <div className="grid-container project-areas">
+        <div className="projects-grid-container project-areas">
           <img
             src={BlurpImg}
             className="project-img"
@@ -93,7 +93,7 @@ function Projects() {
 
       <div className="project-section">
         <h2 className="black-text">Tic-Tac-Toe Bot</h2>
-        <div className="grid-container project-areas">
+        <div className="projects-grid-container project-areas">
           <img
             src={TicTacToeImg}
             className="project-img"
@@ -131,7 +131,7 @@ function Projects() {
 
       <div className="project-section">
         <h2 className="black-text">Maze Solver</h2>
-        <div className="grid-container project-areas">
+        <div className="projects-grid-container project-areas">
           <img
             src={MazeSolverImg}
             className="project-img"
