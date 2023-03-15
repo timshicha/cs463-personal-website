@@ -18,6 +18,7 @@ Resources used:
 - [https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html)
 - [https://www.w3schools.com/](https://www.w3schools.com/)
 - [https://stackoverflow.com/](https://stackoverflow.com/)
+
 Repos used for guidance:
 - [https://github.com/pdx-blurp/blurp-frontend](https://github.com/pdx-blurp/blurp-frontend)
 - [https://github.com/timshicha/student-repo](https://github.com/timshicha/student-repo)
