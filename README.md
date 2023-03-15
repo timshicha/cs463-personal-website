@@ -1,10 +1,30 @@
-# Getting Started with Create React App
+# CS463 Personal Website
+
+## Project Description
+
+This is my (Timofey Shichalin) final project for the class CS 463 (Introduction to Web Development) at Portland State University. It is a multi-page website. It introduces me and displays some of my past experience and projects. You can see the site live at [https://timshicha.github.io/cs463-personal-website/](https://timshicha.github.io/cs463-personal-website/).
+
+## Frameworks, Libraries, and other Resources Used
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Node dependencies added (on top of React defaults):
+
+- `gh-pages`
+  Resources used:
+  - [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  - [https://icons.getbootstrap.com/](https://icons.getbootstrap.com/)
+
+## Setting Up
+
+This project requires you have Node installed on your machine. Node will allow you to run `npm` commands. The necessary `npm` commands are outlines below.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs all the necessary dependencies (listed in `package.json` file). This will create a `node_modules` directory.
 
 ### `npm start`
 
@@ -16,7 +36,7 @@ You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+(Not yet set up) Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
@@ -39,6 +59,14 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+### `npm run deploy`
+
+Builds the project and pushes the build to branch `gh-pages`. To create a commit message on the deployment, use `npm run reploy -m "message"` instead.
+
+## Deployment
+
+To deploy your own version of this project on GitHub, you need to clone this repository and create your own remote repository. Open the file `package.json` and edit the homepage (line 4) to the URL you'll be deploying the project from. If you'll be deploying on GitHub, use `https://<YOUR-GITHUB-USERNAME>.github.io/<YOUR-REPOSITORY-NAME>/`. Afterwards, run `npm run deploy` (see above). Then, go to your repository, click Settings, click Pages, and deploy from the `gh-pages` branch. Any time you want to deploy your updated project, using `npm run deploy` will update the deployment.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -60,10 +88,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 ### Advanced Configuration
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
