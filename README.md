@@ -10,9 +10,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Node dependencies added (on top of React defaults):
 
 - `gh-pages`
-  Resources used:
-  - [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-  - [https://icons.getbootstrap.com/](https://icons.getbootstrap.com/)
+
+Resources used:
+-[https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [https://icons.getbootstrap.com/](https://icons.getbootstrap.com/)
+- [https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html)
+- [https://www.w3schools.com/](https://www.w3schools.com/)
+- [https://stackoverflow.com/](https://stackoverflow.com/)
+Repos used for guidance:
+- [https://github.com/pdx-blurp/blurp-frontend](https://github.com/pdx-blurp/blurp-frontend)
+- [https://github.com/timshicha/student-repo](https://github.com/timshicha/student-repo)
 
 ## Setting Up
 
