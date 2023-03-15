@@ -55,8 +55,6 @@
 
   .grid-areas-container {
     grid-template-areas:
-      /* 'main-photo par-area'
-      '.          par-area'; */
       'par-area   photo-area'
       'par-area   .';
     grid-template-columns: auto 300px;

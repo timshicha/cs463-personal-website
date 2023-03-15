@@ -5,6 +5,7 @@ import SocialMedia from '../components/SocialMedia';
 function Contact() {
   useEffect(() => {
     window.addEventListener('submit', (event) => {
+      event.preventDefault();
       let name = event.target.name.value;
       let email = event.target.email.value;
       let message = event.target.message.value;
@@ -29,7 +30,6 @@ function Contact() {
           `Message: ${message}`
       );
       window.location.href = '/';
-      event.preventDefault();
     });
   });
 
