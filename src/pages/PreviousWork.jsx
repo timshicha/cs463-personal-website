@@ -19,6 +19,16 @@ function PreviousWork() {
       <Navbar />
       <h1 className="page-header center-text">Previous Work</h1>
       <div className="prev-work-div">
+        <h2 className="black-text">Education:</h2>
+        <ul className="skills-list">
+          <li>
+            Portland State University
+            <ul>
+              <li>B.S. Computer Science</li>
+              <li>Years: Fall 2019-present</li>
+            </ul>
+          </li>
+        </ul>
         <h2 className="black-text">Skills:</h2>
         <ul className="skills-list">
           <li>C++</li>
