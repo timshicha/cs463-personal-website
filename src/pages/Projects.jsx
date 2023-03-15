@@ -1,3 +1,4 @@
+import React from 'react';
 import Navbar from '../components/Navbar';
 import Connect4Img from '../assets/connect-4-img.png';
 import BlurpImg from '../assets/blurp-img.png';
@@ -6,7 +7,7 @@ import MazeSolverImg from '../assets/maze-solver-img.png';
 
 function Projects() {
   return (
-    <div className="projects hex-bg-pattern overflow-handler">
+    <div className="hex-bg-pattern overflow-handler">
       <Navbar />
       <h1 className="page-header center-text">Projects</h1>
       <div className="project-section">

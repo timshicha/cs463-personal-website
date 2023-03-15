@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import SocialMedia from '../components/SocialMedia';
 
@@ -17,7 +17,7 @@ function Contact() {
   });
 
   return (
-    <div className="hex-bg-pattern contact overflow-handler">
+    <div className="hex-bg-pattern overflow-handler">
       <Navbar />
       <h1 className="page-header center-text">Contact</h1>
       <div className="contact-div">
@@ -67,12 +67,16 @@ function Contact() {
             />
           </div>
           <div className="contact-btn-div">
-            <button type="submit" className="contact-btn contact-submit">
-              Submit
-            </button>
-            <button type="reset" className="contact-btn contact-reset">
-              Reset
-            </button>
+            <input
+              type="submit"
+              className="contact-btn contact-submit"
+              value="Submit"
+            />
+            <input
+              type="reset"
+              className="contact-btn contact-reset"
+              value="Reset"
+            />
           </div>
         </form>
       </div>

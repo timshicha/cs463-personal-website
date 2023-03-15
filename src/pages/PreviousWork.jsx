@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import CaretUp from '../assets/caret-up.png';
 import CaretDown from '../assets/caret-down.png';
@@ -15,7 +15,7 @@ function PreviousWork() {
   };
 
   return (
-    <div className="previous-work hex-bg-pattern overflow-handler">
+    <div className="hex-bg-pattern overflow-handler">
       <Navbar />
       <h1 className="page-header center-text">Previous Work</h1>
       <div className="prev-work-div">

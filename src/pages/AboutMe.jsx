@@ -1,10 +1,11 @@
+import React from 'react';
 import Navbar from '../components/Navbar';
 import SocialMedia from '../components/SocialMedia';
 import ImageOfTimofey from '../assets/image-of-timofey.jpg';
 
 function AboutMe() {
   return (
-    <div className="about-me hex-bg-pattern overflow-handler">
+    <div className="hex-bg-pattern overflow-handler">
       <Navbar />
       <div className="navbar-spacer"></div>
       <section className="aboutme-grid-container grid-areas-container">
