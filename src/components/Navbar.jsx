@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import HomeImg from '../assets/home-img.png';
 import HamburgerMenuImg from '../assets/hamburger-menu.png';
 import '../styles/Navbar.css';
 
@@ -9,6 +10,9 @@ const Navbar = () => {
   return (
     <>
       <nav className="nav-bar">
+        <button className="home-button">
+          <img src={HomeImg} alt="Go to home page" className="home-icon" />
+        </button>
         <div className="nav-table">
           <div className="nav-item">
             <Link to="/" className="nav-link about-me-link">

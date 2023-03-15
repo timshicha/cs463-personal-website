@@ -7,6 +7,22 @@
   z-index: 1;
 }
 
+.home-button {
+  float: left;
+  background-color: transparent;
+  border: none;
+  max-height: 50px;
+}
+
+.home-button:hover {
+  cursor: pointer;
+  opacity: 60%;
+}
+
+.home-icon {
+  max-height: 50px;
+}
+
 .menu-div {
   display: block;
   position: relative;
