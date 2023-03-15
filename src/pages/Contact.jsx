@@ -5,11 +5,28 @@ import SocialMedia from '../components/SocialMedia';
 function Contact() {
   useEffect(() => {
     window.addEventListener('submit', (event) => {
+      let name = event.target.name.value;
+      let email = event.target.email.value;
+      let message = event.target.message.value;
+
+      if (name === null || name === '') {
+        alert('Please enter a name in the contact form.');
+        return;
+      }
+      if (email === null || email === '') {
+        alert('Please enter an email in the contact form.');
+        return;
+      }
+      if (message === null || message === '') {
+        alert('Please enter a message in the contact form');
+        return;
+      }
+
       console.log(
         `===Contact===\n` +
-          `Name: ${event.target.name.value}\n` +
-          `Email: ${event.target.email.value}\n` +
-          `Message: ${event.target.message.value}`
+          `Name: ${name}\n` +
+          `Email: ${email}\n` +
+          `Message: ${message}`
       );
       window.location.href = '/';
       event.preventDefault();
@@ -43,6 +60,7 @@ function Contact() {
               type="text"
               name="name"
               className="contact-field"
+              placeholder="Name"
             />
           </div>
           <div className="label-section">
@@ -54,6 +72,7 @@ function Contact() {
               type="email"
               name="email"
               className="contact-field"
+              placeholder="example@email.com"
             />
           </div>
           <div className="label-section msg-div">
@@ -64,6 +83,7 @@ function Contact() {
               id="message"
               name="message"
               className="contact-field contact-message"
+              placeholder="Enter your message here. It will not be submitted, but rather just printed in the console."
             />
           </div>
           <div className="contact-btn-div">
