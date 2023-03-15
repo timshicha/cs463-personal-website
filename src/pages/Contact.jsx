@@ -1,7 +1,21 @@
+import { useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import SocialMedia from '../components/SocialMedia';
 
 function Contact() {
+  useEffect(() => {
+    window.addEventListener('submit', (event) => {
+      console.log(
+        `===Contact===\n` +
+          `Name: ${event.target.name.value}\n` +
+          `Email: ${event.target.email.value}\n` +
+          `Message: ${event.target.message.value}`
+      );
+      window.location.href = '/';
+      event.preventDefault();
+    });
+  });
+
   return (
     <div className="hex-bg-pattern contact overflow-handler">
       <Navbar />
@@ -19,7 +33,7 @@ function Contact() {
           If you need to reach me personally, please contact me using the form
           (non-functioning) below:
         </p>
-        <form action="/">
+        <form>
           <div className="label-section">
             <label htmlFor="name" className="contact-label">
               Name:
