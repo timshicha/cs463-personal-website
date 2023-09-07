@@ -43,6 +43,7 @@ function PreviousWork() {
         </ul>
         <h2 className="black-text">Upper division courses taken:</h2>
         <ul className="work-purple-box">
+
           <li className="work-item">
             <input
               type="image"
@@ -67,6 +68,7 @@ function PreviousWork() {
               </ul>
             </div>
           </li>
+
           <li className="work-item">
             <input
               type="image"
@@ -90,6 +92,7 @@ function PreviousWork() {
               </ul>
             </div>
           </li>
+
           <li className="work-item">
             <input
               type="image"
@@ -115,6 +118,7 @@ function PreviousWork() {
               </ul>
             </div>
           </li>
+
           <li className="work-item">
             <input
               type="image"
@@ -140,6 +144,7 @@ function PreviousWork() {
               </ul>
             </div>
           </li>
+
           <li className="work-item">
             <input
               type="image"
@@ -162,6 +167,32 @@ function PreviousWork() {
                 <li>Planning and organizing</li>
                 <li>Working in a team</li>
                 <li>FE Web development (React)</li>
+              </ul>
+            </div>
+          </li>
+
+          <li className="work-item">
+            <input
+              type="image"
+              src={expanded === 'CS 410' ? CaretUp : CaretDown}
+              alt="Expand CS 410 Data Engineering"
+              className="caret-img"
+              onClick={() => toggleExpand('CS 410')}
+            />
+            <h3 className="course-title">
+              CS 410 - Data Engineering
+            </h3>
+            <div
+              className={
+                'work-expanded-sec ' +
+                (expanded === 'CS 410' ? 'expanded-sz' : '')
+              }
+            >
+              <p className="topics-text">Main topics learned:</p>
+              <ul className="topics-list">
+                <li>Creating a data pipeline</li>
+                <li>Producing and consuming big data</li>
+                <li>USing GCP virtual machines</li>
               </ul>
             </div>
           </li>
