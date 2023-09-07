@@ -192,7 +192,33 @@ function PreviousWork() {
               <ul className="topics-list">
                 <li>Creating a data pipeline</li>
                 <li>Producing and consuming big data</li>
-                <li>USing GCP virtual machines</li>
+                <li>Using GCP virtual machines</li>
+              </ul>
+            </div>
+          </li>
+
+          <li className="work-item">
+            <input
+              type="image"
+              src={expanded === 'CS 465P' ? CaretUp : CaretDown}
+              alt="Expand CS 465P Full-Stack Web Development"
+              className="caret-img"
+              onClick={() => toggleExpand('CS 465P')}
+            />
+            <h3 className="course-title">
+              CS 465P - Full-Stack Web Development
+            </h3>
+            <div
+              className={
+                'work-expanded-sec ' +
+                (expanded === 'CS 465P' ? 'expanded-sz' : '')
+              }
+            >
+              <p className="topics-text">Main topics learned:</p>
+              <ul className="topics-list">
+                <li>Developing a RESTful API</li>
+                <li>Using most recent web development technologies</li>
+                <li>Creating database images, seeds, migrations</li>
               </ul>
             </div>
           </li>
