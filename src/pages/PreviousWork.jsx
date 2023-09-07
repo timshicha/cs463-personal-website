@@ -25,7 +25,7 @@ function PreviousWork() {
             Portland State University
             <ul>
               <li>B.S. Computer Science</li>
-              <li>Years: Fall 2019-present</li>
+              <li>Years: Fall 2019 - Spring 2023</li>
             </ul>
           </li>
         </ul>
@@ -33,13 +33,14 @@ function PreviousWork() {
         <ul className="skills-list">
           <li>C++</li>
           <li>Python</li>
-          <li>MySQL</li>
+          <li>MySQL and NoSQL</li>
           <li>Object Oriented Programming</li>
           <li>Functional Programming</li>
           <li>FE Web Development (React)</li>
+          <li>Web API Development</li>
           <li>Problem solving</li>
           <li>Strong understanding of algorithms</li>
-          <li>Working in a team</li>
+          <li>Communicating and working in a team</li>
         </ul>
         <h2 className="black-text">Upper division courses taken:</h2>
         <ul className="work-purple-box">
