@@ -48,6 +48,32 @@ function PreviousWork() {
           <li className="work-item">
             <input
               type="image"
+              src={expanded === 'CS 410' ? CaretUp : CaretDown}
+              alt="Expand CS 410 Data Engineering"
+              className="caret-img"
+              onClick={() => toggleExpand('CS 410')}
+            />
+            <h3 className="course-title">
+              CS 410 - Data Engineering
+            </h3>
+            <div
+              className={
+                'work-expanded-sec ' +
+                (expanded === 'CS 410' ? 'expanded-sz' : '')
+              }
+            >
+              <p className="topics-text">Main topics learned:</p>
+              <ul className="topics-list">
+                <li>Creating a data pipeline</li>
+                <li>Producing and consuming big data</li>
+                <li>Using GCP virtual machines</li>
+              </ul>
+            </div>
+          </li>
+
+          <li className="work-item">
+            <input
+              type="image"
               src={expanded === 'CS 441' ? CaretUp : CaretDown}
               alt="Expand CS 441 AI Section"
               className="caret-img"
@@ -90,6 +116,58 @@ function PreviousWork() {
                 <li>Supervised learning</li>
                 <li>Unsupervised learning</li>
                 <li>Dimensionality reduction</li>
+              </ul>
+            </div>
+          </li>
+
+          <li className="work-item">
+            <input
+              type="image"
+              src={expanded === 'CS 465P' ? CaretUp : CaretDown}
+              alt="Expand CS 465P Full-Stack Web Development"
+              className="caret-img"
+              onClick={() => toggleExpand('CS 465P')}
+            />
+            <h3 className="course-title">
+              CS 465P - Full-Stack Web Development
+            </h3>
+            <div
+              className={
+                'work-expanded-sec ' +
+                (expanded === 'CS 465P' ? 'expanded-sz' : '')
+              }
+            >
+              <p className="topics-text">Main topics learned:</p>
+              <ul className="topics-list">
+                <li>Developing a RESTful API</li>
+                <li>Using most recent web development technologies</li>
+                <li>Creating database images, seeds, migrations</li>
+              </ul>
+            </div>
+          </li>
+
+          <li className="work-item">
+            <input
+              type="image"
+              src={expanded === 'CS 469/470' ? CaretUp : CaretDown}
+              alt="Expand CS 469/470 Software Engineering Capstone"
+              className="caret-img"
+              onClick={() => toggleExpand('CS 469/470')}
+            />
+            <h3 className="course-title">
+              CS 469/470 - Software Engineering Capstone
+            </h3>
+            <div
+              className={
+                'work-expanded-sec ' +
+                (expanded === 'CS 469/470' ? 'expanded-sz' : '')
+              }
+            >
+              <p className="topics-text">Main topics learned:</p>
+              <ul className="topics-list">
+                <li>Planning and organizing</li>
+                <li>Working in a team</li>
+                <li>FE Web development (React)</li>
               </ul>
             </div>
           </li>
@@ -142,84 +220,6 @@ function PreviousWork() {
                 <li>Network structure</li>
                 <li>HTTP</li>
                 <li>Routing</li>
-              </ul>
-            </div>
-          </li>
-
-          <li className="work-item">
-            <input
-              type="image"
-              src={expanded === 'CS 469/470' ? CaretUp : CaretDown}
-              alt="Expand CS 469/470 Software Engineering Capstone"
-              className="caret-img"
-              onClick={() => toggleExpand('CS 469/470')}
-            />
-            <h3 className="course-title">
-              CS 469/470 - Software Engineering Capstone
-            </h3>
-            <div
-              className={
-                'work-expanded-sec ' +
-                (expanded === 'CS 469/470' ? 'expanded-sz' : '')
-              }
-            >
-              <p className="topics-text">Main topics learned:</p>
-              <ul className="topics-list">
-                <li>Planning and organizing</li>
-                <li>Working in a team</li>
-                <li>FE Web development (React)</li>
-              </ul>
-            </div>
-          </li>
-
-          <li className="work-item">
-            <input
-              type="image"
-              src={expanded === 'CS 410' ? CaretUp : CaretDown}
-              alt="Expand CS 410 Data Engineering"
-              className="caret-img"
-              onClick={() => toggleExpand('CS 410')}
-            />
-            <h3 className="course-title">
-              CS 410 - Data Engineering
-            </h3>
-            <div
-              className={
-                'work-expanded-sec ' +
-                (expanded === 'CS 410' ? 'expanded-sz' : '')
-              }
-            >
-              <p className="topics-text">Main topics learned:</p>
-              <ul className="topics-list">
-                <li>Creating a data pipeline</li>
-                <li>Producing and consuming big data</li>
-                <li>Using GCP virtual machines</li>
-              </ul>
-            </div>
-          </li>
-
-          <li className="work-item">
-            <input
-              type="image"
-              src={expanded === 'CS 465P' ? CaretUp : CaretDown}
-              alt="Expand CS 465P Full-Stack Web Development"
-              className="caret-img"
-              onClick={() => toggleExpand('CS 465P')}
-            />
-            <h3 className="course-title">
-              CS 465P - Full-Stack Web Development
-            </h3>
-            <div
-              className={
-                'work-expanded-sec ' +
-                (expanded === 'CS 465P' ? 'expanded-sz' : '')
-              }
-            >
-              <p className="topics-text">Main topics learned:</p>
-              <ul className="topics-list">
-                <li>Developing a RESTful API</li>
-                <li>Using most recent web development technologies</li>
-                <li>Creating database images, seeds, migrations</li>
               </ul>
             </div>
           </li>
